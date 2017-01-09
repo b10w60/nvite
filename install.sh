@@ -34,8 +34,8 @@ esac
 
 # Filterdatei anlegen
 if [ $createfilter -eq 1 ]; then
-	mkdir -p /etc/alp
-	filterfile="/var/opt/filter.nvite"
+	mkdir -p /var/opt/nvite
+	filterfile="/var/opt/nvite/filter.nvite"
 	echo "# Eine IP pro Zeile. Auskommentieren möglich. Beispiele:" > $filterfile
 	echo "127.0.0.1" >> $filterfile
 	echo "#192.168.1.1" >> $filterfile

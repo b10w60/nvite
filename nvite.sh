@@ -10,7 +10,7 @@ build=1002
 inputfile=$1
 outputfile=$2
 #filterfile="/etc/alp/alpfilter.alp"
-filterfile="/var/opt/filter.nvite"
+filterfile="/var/opt/nvite/filter.nvite"
 usefilter=1
 
 # main function starts here
